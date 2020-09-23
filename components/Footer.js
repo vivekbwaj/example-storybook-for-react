@@ -52,7 +52,7 @@ class Footer extends Component {
         <ul className="filters">
           {[ SHOW_ALL, SHOW_ACTIVE, SHOW_COMPLETED ].map(filter =>
             <li key={filter}>
-              {/* {this.renderFilterLink(filter)} */}
+              {this.renderFilterLink(filter)}
             </li>
           )}
         </ul>
