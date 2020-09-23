@@ -16,6 +16,7 @@ storiesOf('MainSection', module)
       { id: 'one', text: 'Item One', completed: false },
       { id: 'two', text: 'Item Two', completed: true },
       { id: 'three', text: 'Item Three', completed: false },
+      { id: 'four', text: 'Item Four', completed: false },
     ];
 
     return getMainSection(todoItems);
